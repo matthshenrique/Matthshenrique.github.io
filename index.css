@@ -21,3 +21,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(33, 37, 41);  
 }
+
+.foto-perfil {
+            height: 10%;
+            width: 15%;
+            max-width: 100%;
+            border-radius: 50%;
+}
