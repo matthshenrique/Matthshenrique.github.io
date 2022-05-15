@@ -33,19 +33,15 @@
             <ul class="navbar-nav bg-dark">
 
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Sobre</a>
+                    <a class="nav-link text-light" href="#sobre">Sobre</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Projetos</a>
+                    <a class="nav-link text-light" href="#projetos">Projetos</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Serviços</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Habilidades</a>
+                    <a class="nav-link text-light" href="#habilidades">Habilidades</a>
                 </li>
 
             </ul>
@@ -53,7 +49,7 @@
     </nav>
 
     <!-- Foto e Nome -->
-    <section class="jumbotron text-center">
+    <section id="sobre" class="jumbotron text-center">
         <div class="px-4 py-3 text-center bg-dark">
             <img class="foto-perfil" src="assets/me.jpg" alt="">
             <h1 class="display-5 fw-bold">
@@ -71,8 +67,8 @@
             </div>
             <a href="https://www.linkedin.com/in/matheus-henrique-r/" target="_blank"><i
                     class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/matthshenrique" target="_blank"><i class="fab fa-github"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/matthshenrique" target="_blank"><i class="fab fa-github icon-github"></i></a>
+            <a href="https://www.instagram.com/matths_h/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
         </div>
     </section>
@@ -93,7 +89,7 @@
 
     <!-- Painéis -->
     <div class="album py-5 bg-dark">
-        <div class="container">
+        <div id="projetos" class="container">
             <h2 class="jumbotron heading text-light text-center">Projetos</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
                 <div class="col">
@@ -112,6 +108,9 @@
                                 <li>PHP</li>
                                 <li>MySQL</li>
                                 <li>Bootstrap</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JS</li>
                             </ul>
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -159,11 +158,52 @@
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="assets/Api 1.png" alt="Thumbnail [100%x225]"
+                            style="height: 225px;width: 100%; display: block" data-holder-rendered="true">
+
+                        <div class="card-body">
+                            <p class="card-text">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">API REST de cadastro, atualização
+                                        e consulta de pacotes.
+                                        As tecnologias utilizadas foram:</font>
+                                    <ul>
+                                        <li>ASP.NET Core</li>
+                                        <li>C#</li>
+                                        <li>.NET 6</li>
+                                        <li>Entity Framework Core</li>
+                                        <li>Swagger</li>
+                                        <li>Microsoft Azure</li>
+                                    </ul>
+                                </font>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary"
+                                        onclick="window.open('https://dev-trackr.azurewebsites.net/swagger/index.html')">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Visualizar</font>
+                                        </font>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Contato -->
+    <div class="album py-5 bg-dark">
+        <div id="habilidades" class="container">
+            <h2 class="jumbotron heading text-light text-center">Habilidades</h2>
+            <h5 class="jumbotron heading text-light text-center">Em construção</h5>>
+        </div>
+    </div>
+
+    <!-- Contato 
     <section class="jumbotron text-center bg-dark">
         <div class="container">
             <div class="container-fluid px-4 py-3">
@@ -172,6 +212,7 @@
             </div>
         </div>
     </section>
+    -->
 </body>
 
 </html>

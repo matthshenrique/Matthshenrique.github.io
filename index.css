@@ -6,9 +6,9 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 100px rgb(71, 71, 71); 
+  box-shadow: inset 0 0 100px rgb(71, 71, 71);
   border-radius: 8px;
-  background-color: rgb(33,37,41)
+  background-color: rgb(33, 37, 41)
 }
 
 /* Handle */
@@ -19,12 +19,24 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(33, 37, 41);  
+  background: rgb(33, 37, 41);
 }
 
 .foto-perfil {
-            height: 10%;
-            width: 15%;
-            max-width: 100%;
-            border-radius: 50%;
+  height: 10%;
+  width: 15%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-linkedin {
+  color: rgb(28, 15, 211);
+}
+
+.fa-instagram {
+  color: rgb(216, 69, 11);
 }
